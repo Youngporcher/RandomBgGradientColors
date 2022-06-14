@@ -1,0 +1,31 @@
+
+.container{
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+a,h3{
+    transition: linear .3s;
+    margin-bottom: 50px;
+    color: white;
+    text-decoration: none;
+}
+a{
+    padding: 5px;
+    border: 2px white solid;
+}
+.click:hover h3{
+    transition: linear .3s;
+    color: black;
+
+}
+.click:hover a{
+    transition: linear .3s;
+    border: 2px black solid;
+    color: black;
+
+}
